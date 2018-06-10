@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://mckeogh.tech/posts/is-it-a-bird-now-on-ios/</loc>
+    <lastmod>2017-10-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mckeogh.tech/posts/convolutional-neural-network-bird-detector/</loc>
+    <lastmod>2017-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mckeogh.tech/posts/computer-vision-for-uas-search-and-rescue/</loc>
+    <lastmod>2017-01-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mckeogh.tech/posts/rgb-motion-reactive-bluetooth-snowboard/</loc>
+    <lastmod>2017-01-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mckeogh.tech/posts/long-range-uav/</loc>
+    <lastmod>2016-11-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mckeogh.tech/posts/aberystwyth-university-robotics-beach-lab/</loc>
+    <lastmod>2015-06-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mckeogh.tech/posts/early-videos/</loc>
+    <lastmod>2014-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mckeogh.tech/posts/first-quadcopter/</loc>
+    <lastmod>2011-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mckeogh.tech/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mckeogh.tech/posts/</loc>
+    <lastmod>2017-10-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mckeogh.tech/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mckeogh.tech/</loc>
+    <lastmod>2017-10-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

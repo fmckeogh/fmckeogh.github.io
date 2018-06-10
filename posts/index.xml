@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on mckeogh.tech</title>
+    <link>https://mckeogh.tech/posts/</link>
+    <description>Recent content in Posts on mckeogh.tech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 13 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mckeogh.tech/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Is it a bird? Now on iOS</title>
+      <link>https://mckeogh.tech/posts/is-it-a-bird-now-on-ios/</link>
+      <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://mckeogh.tech/posts/is-it-a-bird-now-on-ios/</guid>
+      <description>You’ve used the website, but what if you don’t have an internet connection? What if spot something and need to know quickly if it is a bird? Now you can using the amazing new “Is it a bird?” app, available on the iOS App Store today!</description>
+    </item>
+    
+    <item>
+      <title>Convolutional Neural Network Bird Detector</title>
+      <link>https://mckeogh.tech/posts/convolutional-neural-network-bird-detector/</link>
+      <pubDate>Sat, 10 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://mckeogh.tech/posts/convolutional-neural-network-bird-detector/</guid>
+      <description>Now live at isitabird.mckeogh.tech EDIT: Also now written entirely in Go!
+It’s been done many times already, but I needed a project to distract from my looming exam results. Like many others, I saw xkcd No. 1425 as a challenge, and in a few hours I had a working bird classifier, written in Python. New code available on GitHub.
+There are many much better written articles online describing how it works, but essentially small mathematical functions, like neurones in a brain, make up networks that will take an input, apply those functions to it and produce an output.</description>
+    </item>
+    
+    <item>
+      <title>Computer Vision for UAS Search and Rescue</title>
+      <link>https://mckeogh.tech/posts/computer-vision-for-uas-search-and-rescue/</link>
+      <pubDate>Sat, 28 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://mckeogh.tech/posts/computer-vision-for-uas-search-and-rescue/</guid>
+      <description>I am currently developing a multi-rotor unmanned aircraft system (UAS) to be used in search and rescue operations using object recognition to find a target and deliver a payload, e.g. to help an injured climber on traditionally inaccessible terrain needing to be dropped fluids, a torch, an insulating blanket and/or a flare to assist their survival and later rescue.
+The onboard computer is a Raspberry Pi 3 with a Navio2 board.</description>
+    </item>
+    
+    <item>
+      <title>RGB Motion Reactive Bluetooth Snowboard</title>
+      <link>https://mckeogh.tech/posts/rgb-motion-reactive-bluetooth-snowboard/</link>
+      <pubDate>Fri, 06 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://mckeogh.tech/posts/rgb-motion-reactive-bluetooth-snowboard/</guid>
+      <description>The weekend before we left on a winter holiday, I saw a bluetooth module and an Pro Mini on a breadboard and had an idea. What if I could control the lighting on a snowboard with my phone? 4 hours later, an LED strip and 5V regulator ordered, I set out to create a lighting system that I could install onto my board. Since I would be renting one and I couldn’t take any tools on the plane I had to plan carefully.</description>
+    </item>
+    
+    <item>
+      <title>Long Range UAS</title>
+      <link>https://mckeogh.tech/posts/long-range-uav/</link>
+      <pubDate>Thu, 17 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://mckeogh.tech/posts/long-range-uav/</guid>
+      <description>My latest build is a Pixhawk Skywalker 1900 UAV. It has a wingspan of 1.9m, and uses a 4s 16000mAh battery.
+The plane is outfitted with a 1.3GHz 800mW video transmitter, minimOSD and Skew Planer antenna.
+My current record is a 3h14m flight completely autonomous, from take off to landing. I have been able to fly at 350M AGL drawing only 3.4 amps, showing at least 4 hours is possible on this platform with further work.</description>
+    </item>
+    
+    <item>
+      <title>Aberystwyth University Robotics Beach Lab</title>
+      <link>https://mckeogh.tech/posts/aberystwyth-university-robotics-beach-lab/</link>
+      <pubDate>Sun, 14 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://mckeogh.tech/posts/aberystwyth-university-robotics-beach-lab/</guid>
+      <description>I was a student ambassador for the Aberystwyth University robotics department in 2014 and again in 2015. I demonstrated and talked to the public about the work I had done in the Aberystwyth Robotics Club.
+  </description>
+    </item>
+    
+    <item>
+      <title>Early Videos</title>
+      <link>https://mckeogh.tech/posts/early-videos/</link>
+      <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://mckeogh.tech/posts/early-videos/</guid>
+      <description>Here are some flight videos from Summer 2014.
+  </description>
+    </item>
+    
+    <item>
+      <title>First Quadcopter</title>
+      <link>https://mckeogh.tech/posts/first-quadcopter/</link>
+      <pubDate>Sat, 12 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://mckeogh.tech/posts/first-quadcopter/</guid>
+      <description>Recently, I found an old YouTube account of mine and along with it, this video. I made it aged 13 using my first quadcopter, a HobbyKing KK2.0 “mini quad”. I believe a member of the model club I attended had given me their old 72MHz radio and receiver which I used to fly this drone in the video.
+Please excuse the cheesy music.
+ There is also a video of a few first person video components I made, and please excuse my voice/sentence structure/accent.</description>
+    </item>
+    
+  </channel>
+</rss>
