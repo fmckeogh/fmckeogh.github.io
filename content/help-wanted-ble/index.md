@@ -3,20 +3,23 @@ title = "Help Wanted Solving Our BLE Stack Problem"
 date = 2019-06-13
 +++
 
-TL;DR: Read [this](https://github.com/jonas-schievink/rubble/issues/29#issuecomment-483387629) and open a PR to close the issue ❤️
-
 <p align="center">
 <img src="COH4s8I.jpg" width="50%"/>
 </p>
+
+TL;DR: Read [this](https://github.com/jonas-schievink/rubble/issues/29#issuecomment-483387629) and open a PR to close the issue ❤️
 
 [Jonas Schievink](https://github.com/jonas-schievink) and I have been working on a Bluetooth Low Energy stack in Rust, [Rubble](https://github.com/jonas-schievink/rubble). It is now in a state where hard-coded services can be created and used, with all lower layers of the stack functioning. 
 
 The next step is designing and implementing both an interface for managing Services and Characteristics, as well as a system for notifications when a value is changed. This is fairly complex, with no clear or obvious solution hence the call for help.
 
+## Constraints
+
+We have some constraints that have made implementing the aformentioned difficult. These include hard requirements such as `no_std` (of course) and no allocating, as well as softer aims such as keeping SRAM and flash usage low (currently at 450 bytes and 20K bytes respectively). There is also the nature of microcontrollers' limited processing speed so reducing work at runtime is key, I.E when it comes to creating Attributes from Services.
+
 ## Crash course BLE
 
 [This page](https://devzone.nordicsemi.com/nordic/short-range-guides/b/bluetooth-low-energy/posts/ble-characteristics-a-beginners-tutorial) has a good explaination, but I'll summarise.
-
 
 ### Attribute
 
@@ -46,7 +49,3 @@ In the [GATT module](https://github.com/jonas-schievink/rubble/blob/8518039e7ef8
 
 Attribute values might be changed by either the device running the stack, or a connected device. The other must be notified somehow that this has happened.
 For example, if the air temperature of a thermostat changes, a notification needs to be sent to the external device to display the new value. Similarly, if a user makes a request to toggle a smart switch, Rubble needs a way to run a function that actually toggles the switch.
-
-## Constraints
-
-We have some constraints that have made implementing the aformentioned difficult. These include hard requirements such as `no_std` (of course) and no allocating, as well as softer aims such as keeping SRAM and flash usage low (currently at 450 bytes and 20K bytes respectively). There is also the nature of microcontrollers' limited processing speed so reducing work at runtime is key, I.E when it comes to creating Attributes from Services.
