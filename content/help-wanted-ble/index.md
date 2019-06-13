@@ -49,3 +49,11 @@ In the [GATT module](https://github.com/jonas-schievink/rubble/blob/8518039e7ef8
 
 Attribute values might be changed by either the device running the stack, or a connected device. The other must be notified somehow that this has happened.
 For example, if the air temperature of a thermostat changes, a notification needs to be sent to the external device to display the new value. Similarly, if a user makes a request to toggle a smart switch, Rubble needs a way to run a function that actually toggles the switch.
+
+## Hardware
+
+Nordic has a some developer kits, and it is definitely feasible to use a nRF52 module from Aliexpress soldered to a debugger.
+
+~~For development I would recommend the [Adafruit Bluefruit LE Friend](https://www.adafruit.com/product/2267) along with an STLink or other probe. Rubble currently uses logging over serial so the built in USB to UART is nice.~~
+
+Edit: [nRF51 support is not ready yet](https://github.com/jonas-schievink/rubble/pull/59).
