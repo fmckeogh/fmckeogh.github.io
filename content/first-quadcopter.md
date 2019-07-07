@@ -13,4 +13,4 @@ src="https://www.youtube.com/embed/nLQ8UQstqL8">
 </iframe>
 </p>
 
-There is also a video of a few first person video components I made, and please excuse my voice/sentence structure/accent.
+There is also a video of a few first person video components I made, and please excuse my voice/sentence structure/accent, I was 13.

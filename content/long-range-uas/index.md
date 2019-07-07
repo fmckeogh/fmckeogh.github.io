@@ -39,7 +39,7 @@ Finally, here is the annotated power system for the aircraft.
 
 Update 22-11-2016:
 
-Here is the video from a late Sunday afternoon flight. Loiter and FBWA modes were tested and found to be working. APM Planner 2 logs can be found here.
+Here is the video from a late Sunday afternoon flight. Loiter and FBWA modes were tested and found to be working.
 
 <p align="center">
 <iframe width="640" height="360" frameborder="0"
