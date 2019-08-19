@@ -1,3 +1,4 @@
 [submodule "themes/ergo"]
 	path = themes/ergo
 	url = https://github.com/chocol4te/Ergo.git
+	branch = master
