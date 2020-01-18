@@ -1,0 +1,14 @@
+FRAUTH-CONTENTS
+name = "Ferdia McKeogh"
+pubkey = "jW8UACYFq3CxwfUtpl6P7NWsaeZBNhaJr03fCzFK3pI="
+last_updated = "2020-01-18T08:42:09.079248Z"
+friends = []
+
+[identities]
+github = "chocol4te"
+instagram = "ferdiamckeogh"
+twitter = "chocol4te1"
+website = "https://mckeogh.tech"
+FRAUTH-SIGNATURE
+78N9ZlILF6X1bjaRhvq5dMOLB9f4oZRTzyH/bk+D0LNHBxT7DqxYuERnLHArHiR6U5xX/D6JEx/4He2lmvDlDA==
+FRAUTH-ENDOFFILE
