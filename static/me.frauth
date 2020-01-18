@@ -1,8 +1,11 @@
 FRAUTH-CONTENTS
 name = "Ferdia McKeogh"
 pubkey = "jW8UACYFq3CxwfUtpl6P7NWsaeZBNhaJr03fCzFK3pI="
-last_updated = "2020-01-18T08:42:09.079248Z"
-friends = []
+last_updated = "2020-01-18T17:08:06.254909Z"
+
+[[friends]]
+uri = "https://jamesmunns.com/me.frauth"
+pubkey = "uOoY1GxJve4AqGoioN6edJcWNrqz0orWPhY/TP/HfAQ="
 
 [identities]
 github = "chocol4te"
@@ -10,5 +13,5 @@ instagram = "ferdiamckeogh"
 twitter = "chocol4te1"
 website = "https://mckeogh.tech"
 FRAUTH-SIGNATURE
-78N9ZlILF6X1bjaRhvq5dMOLB9f4oZRTzyH/bk+D0LNHBxT7DqxYuERnLHArHiR6U5xX/D6JEx/4He2lmvDlDA==
+Q4YiRHoAxRmRPrj8vRJi33liC8dbwlhaxlPzUxzV6LADWTA/dQ9UF+Qn13IqREEJ6HLx+o10w8qhMbtWSqmABQ==
 FRAUTH-ENDOFFILE
