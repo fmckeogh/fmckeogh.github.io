@@ -1,0 +1,17 @@
+baseURL: "https://mckeogh.tech"
+languageCode: "en-gb"
+title: "mckeogh.tech"
+theme: "novela"
+pygmentsstyle: "monokai"
+paginate: 10
+social:
+  twitter: "https://twitter.com/chocol4te1"
+  github: "https://github.com/chocol4te"
+  instagram: "https://www.instagram.com/ferdiamckeogh/"
+  linkedin: "https://www.linkedin.com/in/ferdia-mckeogh-5b042b194"
+taxonomies:
+  author: authors
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
