@@ -1,7 +1,7 @@
 ---
 title: Computer Vision for UAS Search and Rescue
 date: 2017-01-28
-hero: "/images/uas-sar.png"
+hero: "/images/uas-sar.jpg"
 ---
 
 <p align="center">

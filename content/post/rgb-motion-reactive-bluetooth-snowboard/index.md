@@ -2,7 +2,7 @@
 title = "RGB Motion Reactive Bluetooth Snowboard"
 description = ""
 date = 2017-01-06
-hero="/images/rgb-snowboard.png"
+hero="/images/rgb-snowboard.jpg"
 +++
 
 <p align="center">

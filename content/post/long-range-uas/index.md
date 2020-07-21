@@ -1,7 +1,7 @@
 +++
 title = "Long Range UAS"
 date = 2016-11-17
-hero = "/images/long-range-uas.png"
+hero = "/images/long-range-uas.jpg"
 +++
 
 <p align="center">

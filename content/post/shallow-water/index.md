@@ -1,14 +1,14 @@
 ---
 title: Rewriting FORTRAN Software In Rust
 date: 2020-07-14
-hero: "/images/shallow-water.png"
+hero: "/images/shallow-water.jpg"
 authors:
   - Ferdia McKeogh
 ---
 
 ### [github.com/rse-standrewscs/shallow-water](https://github.com/rse-standrewscs/shallow-water)
 
-TL;DR: Rewriting isn't *always* bad, [Amdahl’s Law](https://en.wikipedia.org/wiki/Amdahl%27s_law) is important and memory bandwidth is a potential bottleneck when doing many simple double precision math operations
+TL;DR: Rewriting isn't *always* bad but it probably was here, [Amdahl’s Law](https://en.wikipedia.org/wiki/Amdahl%27s_law) is important and memory bandwidth is a potential bottleneck when doing many simple double precision math operations
 
 ## Introduction
 
@@ -50,7 +50,7 @@ Given all of this I decided it would be faster to rewrite in Rust, then be able 
 
 *Relatively* straightforward translation of existing codebases in compiled languages to Rust is a noted benefit due to the combination of software like [C2Rust](https://c2rust.com) to perform automatic translation of C source into Rust, [bindgen](https://github.com/rust-lang/rust-bindgen) for automatically generating FFI bindings and of Cargo’s ability to compile code in other languages as part of a Rust project. While there are plenty examples of large projects successfully migrating to Rust this way, the issue I faced was that it would have required a two-step process, first translating from FORTRAN to C and then from C to Rust. I assumed the likelihood that the resulting code would be remotely parsable was very low and I couldn’t even get either of the most popular FORTRAN to C conversion tools to work.
 
-Since the original implementation was only 6,000 lines total I decided to go with a manual translation. This involved starting at the base of the module tree with the Fast Fourier Transform routines and working upwards. I kept my process simple by inserting small pieces of FORTRAN to dump state at the beginning and end of routines which was then used for snapshot tests for the Rust implementation. This resulted in a thorough, robust testing suite which was invaluble during the optimization period. I really only made one bad design decision (please don't read through the git history to confirm this 😅) during the translation phase which was thinking that nested `Vec`s would be easier than using `ndarray` from the start. This was a Bad Decision™️ and wasted so much time, not only in the abysmal execution speeds slowing down `cargo test`, but also in that it significantly increased development time. I would replace a statement such as
+Since the original implementation was only 6,000 lines total I decided to go with a manual translation. This involved starting at the base of the module tree with the Fast Fourier Transform routines and working upwards. I kept my process simple by inserting small pieces of FORTRAN to dump state at the beginning and end of routines which was then used for snapshot tests for the Rust implementation. This resulted in a thorough, robust testing suite which was invaluble during the optimization period. I really only made one bad design decision (please don't read through the git history to confirm this 😅) *during the translation phase* which was thinking that nested `Vec`s would be easier than using `ndarray` from the start. This was a Bad Decision™️ and wasted so much time, not only in the abysmal execution speeds slowing down `cargo test`, but also in that it significantly increased development time. I would replace a statement such as
 
 ```f90
 ! FORTRAN
