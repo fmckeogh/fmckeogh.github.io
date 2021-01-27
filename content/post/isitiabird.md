@@ -6,7 +6,7 @@ hero: "/images/isitabird.png"
 
 ~~Now live at [isitabird.mckeogh.tech](https://isitabird.mckeogh.tech) EDIT: Also now written entirely in Go!~~
 
-It’s been done many times already, but I needed a project to distract from my looming exam results. Like many others, I saw xkcd No. 1425 as a challenge, and in a few hours I had a working bird classifier, written in Python. New code available on [GitHub](https://github.com/chocol4te/isitabird-go).
+It’s been done many times already, but I needed a project to distract from my looming exam results. Like many others, I saw xkcd No. 1425 as a challenge, and in a few hours I had a working bird classifier, written in Python. New code available on [GitHub](https://github.com/fmckeogh/isitabird-go).
 
 There are many much better written articles online describing how it works, but essentially small mathematical functions, like neurones in a brain, make up networks that will take an input, apply those functions to it and produce an output. You can create layers of networks to do different things and chain them in different ways to manipulate the data. Then you get your network and teach it to decide whether a picture is “bird” or “not bird”.
 

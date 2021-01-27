@@ -8,7 +8,7 @@ social:
   - title: twitter
     url: "https://twitter.com/chocol4te1"
   - title: github
-    url: "https://github.com/chocol4te"
+    url: "https://github.com/fmckeogh"
   - title: instagram
     url: "https://www.instagram.com/ferdiamckeogh/"
   - title: linkedin
